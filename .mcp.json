@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ensue-memory": {
+      "command": "uv",
+      "args": ["run", "--with", "httpx", "python3", "/Users/tmc/go/src/github.com/mutable-state-inc/ensue-mcp-stdio/ensue_mcp_stdio.py"],
+      "env": {
+        "ENSUE_TOKEN": "${ENSUE_API_KEY}"
+      }
+    }
+  }
+}
